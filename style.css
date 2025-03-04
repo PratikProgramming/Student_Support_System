@@ -1,0 +1,21 @@
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.feedback-card {
+    transition: transform 0.3s;
+}
+.feedback-card:hover {
+    transform: translateY(-5px);
+}
+
+.sentiment-positive {
+    border-left: 4px solid #28a745;
+}
+.sentiment-neutral {
+    border-left: 4px solid #ffc107;
+}
+.sentiment-negative {
+    border-left: 4px solid #dc3545;
+}
